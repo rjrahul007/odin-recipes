@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 3.5rem;
+  text-align: center;
+}
+span {
+  opacity: 0.7;
+}
+.text span:nth-child(even) {
+  margin-right: 0.3em;
+}
+.text a:first-child {
+  font-size: 1.7rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+a:hover,
+a:focus,
+a:active {
+  cursor: pointer;
+  text-decoration: underline;
+}
+/* Layout */
+.recipes,
+article {
+  width: 90%;
+  margin: 0 auto;
+}
+.recipe {
+  margin: 2em auto;
+  outline: 1px solid red;
+}
+.text {
+  padding: 1em;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+article li {
+  margin: 1em 0;
+}
+
+footer {
+  text-align: center;
+  margin: 1em 0;
+}
